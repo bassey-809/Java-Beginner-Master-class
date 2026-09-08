@@ -1,1 +1,1 @@
-# Java-Beginner-Master-class
+Hello world! I am new into Java and taught of it being a great idea to structure everything i learn about java into one Document and no gatekeeping it from other making it public enjoy and feel free you can contribute copy the codes and run it yourself all the best :) 
