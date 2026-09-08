@@ -1,0 +1,28 @@
+//A game where you can input your imagination and make it turn into a story.
+import java.util.Scanner;
+public class main{
+    public static void main(String[]args){
+        String name,animal,place,food, object,Number;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter any person Name: ");
+        name = input.nextLine();
+
+        System.out.print("Enter animal Name: ");
+        animal = input.nextLine();
+
+        System.out.print("Enter any place: ");
+        place = input.nextLine();
+
+        System.out.print("Enter any food of your choice: ");
+        food = input.nextLine();
+
+        System.out.println("Enter any object: ");
+        object = input.nextLine();
+
+        System.out.print("Enter any Number: ");
+        Number = input.nextLine();
+
+        System.out.print(name + " Was peacefully eaten " + food + " \n At the " + place + " When a " + animal + " \n Suddenly came running towards him. \n" + name + "  Grabbed his " + object + "and offered the lion" + Number + " cedis to leave him alone." + " \n The " + animal + " accepted the money..." + "and Daniel never saw it again.");
+
+    }
+}
