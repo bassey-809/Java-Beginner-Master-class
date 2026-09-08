@@ -1,1 +1,8 @@
-
+public class main{
+    public static void main(String[]args){
+        System.out.println("\tIndented text");//Output:   Indented text
+        System.out.println("Computer said, \"Hello World!.\"");//Output:Computer said, "Hello!"
+        System.out.println("C:\\Users\\Compiler");//Output:C:\Users\Compiler
+    }
+}
+//Feel free to upload each one into your ide and reveal the output yourself to have a fair understanding
