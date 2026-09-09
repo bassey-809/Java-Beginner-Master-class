@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String[]args){
+        String item;
+        int quantity, amount, total, price, change;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter Item purchased:");
+        item = input.nextLine();
+
+        System.out.print("Enter Price of the Item:");
+        price = input.nextInt();
+
+        System.out.print("Enter the number of Quantity purchased for " + item + ":");
+        quantity = input.nextInt();
+
+        System.out.print("Enter amount to be paid: ");
+        amount = input.nextInt();
+
+        total = quantity * price;
+
+        change = amount - total;
+
+        System.out.println("========Customer Data=========== \n");
+
+        System.out.println("Item Bought:" + item);
+        System.out.println("Quantity purchased:" + quantity);
+        System.out.println("Total Bill for Items: " + total);
+        System.out.println("Change to be given:" + change);
+
+        System.out.print("=================================");
+
+
+    }
+}
