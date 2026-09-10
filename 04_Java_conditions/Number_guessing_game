@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        int secret = 42;
+        int guess;
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Guess a number between 1 and 100: ");
+        guess = input.nextInt();
+
+        if (guess == secret) {
+            System.out.println("You got it! Congratulations!");
+        } else if (guess > secret) {
+            System.out.println("Too high, try again.");
+        } else {
+            System.out.println("Too low, try again.");
+        }
+
+        input.close();
+    }
+}
