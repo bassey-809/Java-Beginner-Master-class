@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class main{
+    public static void main(String[]args){
+        double length;
+        double width;
+        double answer;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the length of the Rectangle: ");
+        length =input.nextDouble();
+        System.out.print("Enter the width of the Rectangle: ");
+        width = input.nextDouble();
+        answer = length * width;
+        System.out.print("Area is: " + answer);
+
+    }
+        }
